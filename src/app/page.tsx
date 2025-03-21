@@ -1,9 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Layout from "./layout";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Hero from "./Hero";
 
 export default function Home() {
   return (
+
+    <>
    <Navbar />
+   <Hero />   
+   <Footer />
+    </>
   );
 }
